@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signleton</title>
+</head>
+<body>
+    <h1>Singleton in Java Script </h1>
+    <script src="script.js"></script>
+    <script>
+        const s=new ThemeSettings();
+        const a =new ThemeSettings();
+        let signleton;
+        if(a === s){
+            signleton =true;
+        }
+        else 
+        signleton=false;
+        console.log(s);
+        console.log(a);
+        console.log(signleton);
+    </script>
+</body>
+</html>
